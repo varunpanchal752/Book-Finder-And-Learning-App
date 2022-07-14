@@ -1,0 +1,22 @@
+#bookContainer{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#pages{
+    color: white;
+}
+button{
+    border: none;
+    font-family:cursive;
+    background-color: burlywood;
+    margin-right: 0.5vw;
+    margin-left: 0.5vw;
+    margin-bottom: 2vw;
+    transform:scale(1,1);
+    transition: 0.3s;
+}
+button:hover{
+    transform:scale(1.2,1.2);
+    transition: 0.3s;
+}

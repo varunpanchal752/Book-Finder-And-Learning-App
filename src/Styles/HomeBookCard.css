@@ -1,0 +1,35 @@
+#cardBody{
+    margin:3vh;
+}
+#cardDetails{
+    padding:1vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+h5{
+    font-size: smaller;
+    margin:1px;
+}
+p{
+    font-size: smaller;
+    margin:1px;
+}
+a{
+    font-size: smaller !important;
+    margin:1px;
+    transform:scale(1,1);
+    transition: 0.3s;
+}
+a:hover{
+    transform:scale(1.05,1.05);
+    transition: 0.3s;
+}
+img{
+    height:28vh;
+}
+#stars{
+    display: flex;
+    flex-direction: row;
+}

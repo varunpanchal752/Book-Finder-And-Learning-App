@@ -1,0 +1,39 @@
+body{
+   background-image:url("https://wallpaperaccess.com/full/253322.jpg");
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+}
+#head{
+    background-color:rgba(104, 75, 71, 0.980);
+    border-bottom:0.01px solid black;
+    justify-content: space-around;
+}
+#head h1{
+    padding-left:4vw;
+    font-family: cursive;
+}
+#head input
+{
+    outline:none;
+    border-radius: 4px ;
+    border: white;
+}
+
+#search button{
+    background-color:transparent;
+    outline:none;
+    border:none;
+    transform:scale(1,1);
+    transition: 0.3s;
+}
+#search button:hover{
+    transform:scale(1.5,1.5);
+    transition: 0.3s;
+}
+h2{
+    color:rgb(235, 195, 87);
+    font-size:2vw;
+    text-align: center;
+    font-family: cursive;
+}
